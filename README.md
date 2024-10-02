@@ -1,59 +1,45 @@
-Contact Us From Package
-#This will send email to admin and save to contact query on database
 
 
 
 <h1 align="center">
-Banking System
+Contact Us From Laravel Package
 </h1>
 
+composer require twitesoft/contact
+
+## Contact Us Page
+#This will send email to admin and save to contact query on database
 
 
-## Banking System
-Implement a banking system with two types of users: Individual and Business. The system should
-support deposit and withdrawal operations for both types of users.
 
 
 
-How to setup locally
+How to setup this package in your main project locally
 
--  Clone the repository
+-  Run this command on your terminal or checkout [packagist](https://packagist.org/)
+-  https://packagist.org/packages/twitesoft/contact
+-  
 ```bash
-git clone https://github.com/developeralamin/mediusware_task
+composer require twitesoft/contact
 ```
 
-- Install dependencies
+
+- Then publish vendor on this package and Run this command
 ```bash
-composer install
+php artisan vendor:publish
 ```
 
-- Create a copy of your .env file
+- Then run migrate 
 ```
-cp .env.example .env
-```
-
-- Generate an app encryption key
-```bash
-php artisan key:generate
+ php artisan migrate
 ```
 
-- Create Database Name .env file
-```
-DB_DATABASE = 
-```
-- Run migrations
-```bash
-php artisan migrate
-```
-
-
-
+http://127.0.0.1:8081/contact
 
 - Run the local development server
 ```bash
 php artisan serve
 ```
+ - The url will be
+- Visit http://127.0.0.1:8000/contact in your browser
 
-- Visit http://localhost:8000 in your browser
-- Create account
-- Login with email and password
