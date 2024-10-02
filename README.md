@@ -34,8 +34,6 @@ php artisan vendor:publish
  php artisan migrate
 ```
 
-http://127.0.0.1:8081/contact
-
 - Run the local development server
 ```bash
 php artisan serve
