@@ -16,7 +16,7 @@ composer require twitesoft/contact
 
 How to setup this package in your main project locally
 
--  Run this command on your terminal or checkout [packagist](https://packagist.org/)
+-  Checkout the packagist website
 -  https://packagist.org/packages/twitesoft/contact
 -  
 ```bash
