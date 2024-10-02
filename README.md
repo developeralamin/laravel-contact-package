@@ -8,7 +8,7 @@ Contact Us From Laravel Package
 composer require twitesoft/contact
 
 ## Contact Us Page
-#This will send email to admin and save to contact query on database
+#This will send email to admin and save to contact query data on database
 
 
 
